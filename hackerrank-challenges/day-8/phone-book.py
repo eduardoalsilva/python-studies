@@ -10,7 +10,6 @@ l = []
 # item = input()
 
 file = list(open('phone-book-input.txt'))
-print(file)
 for line in range(len(file)):
     if line == 0:
         n = line
